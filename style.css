@@ -449,3 +449,44 @@ ul li a:hover::after {
       left: 0;
     }
   }
+
+  #logo img{
+      width: 7rem;
+     
+  }
+  #logo{
+      display: flex;
+      justify-content: center;
+  }
+  .eventchair th, td{
+      margin: 2px ;
+  }
+  .base{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      
+
+  }
+  footer{
+    background-color: #fff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  .district {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+   .eventChair{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: right;
+  }
+
+  
+ 
