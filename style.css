@@ -4,7 +4,7 @@ html {
     --black:	#21252a;
     --grey-1: #343A40;
     --grey-2: #495057;
-    --grey-3: #868E96;
+    --grey-3: #1a1a1a;
     --grey-4: #ADB5BD;
     --grey-5: #CED4DA;
     --grey-6: #DEE2E6;
@@ -70,6 +70,7 @@ nav {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 15px;
+  margin-bottom: 0;
 }
 
 nav p {
@@ -179,7 +180,7 @@ ul li a:hover::after {
 	
 	ul {
 		background-color: black;
-		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+		box-shadow:0 1px 4px rgba(255, 255, 255, 0.9);
 		flex-direction: column;
 		text-align: center;
 		position: fixed;
@@ -483,6 +484,7 @@ ul li a:hover::after {
     align-content: center;
     flex-wrap: wrap;
     font-size: 1.2rem;
+    /* margin-left: 18px; */
 }
 
    .eventChair{
@@ -527,6 +529,12 @@ ul li a:hover::after {
     display:block;
     padding: 5px;
   }
+.district{
+  margin: 3px;
+}
+.rvLogo{
+  display: none;
+}
   
   
 }
@@ -541,8 +549,9 @@ ul li a:hover::after {
   #logo img{
     width: 3rem;
   }
+  
   #logo {
-    margin:2px;
+    margin:4px;
   }
   #logo2 img{
     width: 12rem;
@@ -569,5 +578,9 @@ ul li a:hover::after {
     
   }
   
+}
+
+.lighterback{
+  background-color: rgba(142, 142, 142, 0.1)
 }
  
