@@ -38,10 +38,10 @@ tableRow.forEach(tableRow => {
     const driverName = this.querySelector(".list__cell:nth-of-type(2) .list__value").innerHTML;
     const driverTeam = this.querySelector(".list__cell:nth-of-type(3) .list__value").innerHTML;
     const driverPoints = this.querySelector(".list__cell:nth-of-type(4) .list__value").innerHTML;
-    const driverImage = this.dataset.image;
-    const driverNationality = this.dataset.nationality;
-    const driverDOB = this.dataset.dob;
-    const driverCountry = this.dataset.country;
+    const TeamImage = this.dataset.image;
+    const TeamLeader = this.dataset.leader;
+    const TeamMember1 = this.dataset.member1;
+    const TeamMember2 = this.dataset.member2;
 
     const newDriver = document.createElement('div');
     newDriver.classList = 'driver';
@@ -49,10 +49,10 @@ tableRow.forEach(tableRow => {
     const driverContent = document.createElement('div');
     driverContent.classList = 'driver__content';
 
-    const profile = document.createElement('img');
-    profile.classList = 'driver__image';
-    profile.src = './images/RotaractRVCE.png'
-    newDriver.appendChild(profile);
+    const profile = document.createElement('div');
+		profile.classList = 'driver__image';
+		profile.style.backgroundImage = `url('${TeamImage}')`;
+		newDriver.appendChild(profile);
 
     const driverTitle = document.createElement('div');
     driverTitle.classList = 'driver__title';
@@ -69,15 +69,15 @@ tableRow.forEach(tableRow => {
 				</tr>
 				<tr>
 					<td><small>Team Leader</small></td>
-					<td>${driverNationality}</td>
+					<td>${TeamLeader}</td>
 				</tr>
 				<tr>
-					<td><small>Team Member:</small></td>
-					<td>${driverDOB}</td>
+					<td><small>Team Member</small></td>
+					<td>${TeamMember1}</td>
 				</tr>
 				<tr>
 					<td><small> Team Member</small></td>
-					<td>${driverPlace}</td>
+					<td>${TeamMember2}</td>
 				</tr>
 				<tr>
 					<td><small>Points</small></td>
@@ -100,3 +100,8 @@ closeOverlayBtn.addEventListener("click", function () {
 overlay.addEventListener("click", function () {
   sidebarClose();
 });
+
+
+
+
+
