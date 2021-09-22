@@ -32,14 +32,17 @@
         </ul>
     </nav>
 
-    <div class="wrapper">
+    <div class="wrapper" >
       <div class="list">
-        <div class="list__header">
+        <div class="list__header" >
           <h5></h5>
-          <h1>Leader Board</h1>
+          <h1 style="text-align: center;">Leader Board</h1>
+        </div>
+       
+ 
         </div>
         <div class="list__body">
-          <table class="list__table">
+          <table class="list__table" id="appen" >
             <tr class="list__row" data-image="./images/event1.jpeg" data-leader="British" data-member1="1985-01-07" data-member2="gb">
               <td class="list__cell"><span class="list__value">1</span></td>
               <td class="list__cell"><span class="list__value">Lewis Hamilton</span><small class="list__label">Team Name</small></td>
@@ -52,113 +55,11 @@
               <td class="list__cell"><span class="list__value">Ferrari</span><small class="list__label">Team ID</small></td>
               <td class="list__cell"><span class="list__value">78</span><small class="list__label">Points</small></td>
             </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1920.medium.jpg/1536135115661.jpg" data-leader="Finnish" data-member1="1989-08-28" data-member2="fi">
+            <tr  class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1920.medium.jpg/1536135115661.jpg" data-leader="Finnish" data-member1="1989-08-28" data-member2="fi">
               <td class="list__cell"><span class="list__value">3</span></td>
               <td class="list__cell"><span class="list__value">Valtteri Bottas</span><small class="list__label">Team Name</small></td>
               <td class="list__cell"><span class="list__value">Mercedes</span><small class="list__label">Team ID</small></td>
               <td class="list__cell"><span class="list__value">58</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1544714269466.jpg" data-leader="Finnish" data-member1="1979-10-17" data-member2="fi">
-              <td class="list__cell"><span class="list__value">4</span></td>
-              <td class="list__cell"><span class="list__value">Kimi Räikkönen</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Ferrari</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">48</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/daniel-ricciardo/_jcr_content/image.img.1920.medium.jpg/1544714300924.jpg" data-leader="Australian" data-member1="1989-07-01" data-member2="au">
-              <td class="list__cell"><span class="list__value">5</span></td>
-              <td class="list__cell"><span class="list__value">Daniel Ricciardo</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Red Bull</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">47</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/image.img.1920.medium.jpg/1536135200444.jpg" data-leader="Dutch" data-member1="1997-09-30" data-member2="nl">
-              <td class="list__cell"><span class="list__value">6</span></td>
-              <td class="list__cell"><span class="list__value">Max Verstappen</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Red Bull</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">33</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://via.placeholder.com/300" data-leader="Spanish" data-member1="1981-07-29" data-member2="es">
-              <td class="list__cell"><span class="list__value">7</span></td>
-              <td class="list__cell"><span class="list__value">Fernando Alonso</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">McLaren</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">32</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/nico-hulkenberg/_jcr_content/image.img.1920.medium.jpg/1536135087181.jpg" data-leader="German" data-member1="1987-08-19" data-member2="de">
-              <td class="list__cell"><span class="list__value">8</span></td>
-              <td class="list__cell"><span class="list__value">Nico Hülkenberg</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Renault</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">22</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/kevin-magnussen/_jcr_content/image.img.1920.medium.jpg/1536135077427.jpg" data-leader="Danish" data-member1="1992-10-05" data-member2="dk">
-              <td class="list__cell"><span class="list__value">9</span></td>
-              <td class="list__cell"><span class="list__value">Kevin Magnussen</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Haas F1 Team</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">19</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/carlos-sainz/_jcr_content/image.img.1920.medium.jpg/1544796007483.jpg" data-leader="Spanish" data-member1="1994-09-01" data-member2="es">
-              <td class="list__cell"><span class="list__value">10</span></td>
-              <td class="list__cell"><span class="list__value">Carlos Sainz</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Renault</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">19</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/_jcr_content/image.img.1920.medium.jpg/1536135110814.jpg" data-leader="Mexican" data-member1="1990-01-26" data-member2="mx">
-              <td class="list__cell"><span class="list__value">11</span></td>
-              <td class="list__cell"><span class="list__value">Sergio Pérez</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Force India</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">17</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/pierre-gasly/_jcr_content/image.img.1920.medium.jpg/1544714186959.jpg" data-leader="French" data-member1="1987-07-03" data-member2="fr">
-              <td class="list__cell"><span class="list__value">12</span></td>
-              <td class="list__cell"><span class="list__value">Pierre Gasly</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Toro Rosso</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">12</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/_jcr_content/image.img.1920.medium.jpg/1544714150783.jpg" data-leader="Monegasque" data-member1="1997-10-16" data-member2="mc">
-              <td class="list__cell"><span class="list__value">13</span></td>
-              <td class="list__cell"><span class="list__value">Charles Leclerc</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Sauber</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">9</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://via.placeholder.com/300" data-leader="Belgian" data-member1="1992-03-26" data-member2="be">
-              <td class="list__cell"><span class="list__value">14</span></td>
-              <td class="list__cell"><span class="list__value">Stoffel Vandoorne</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">McLaren</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">8</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/lance-stroll/_jcr_content/image.img.1920.medium.jpg/1544714229187.jpg" data-leader="Canadian" data-member1="1998-10-29" data-member2="ca">
-              <td class="list__cell"><span class="list__value">15</span></td>
-              <td class="list__cell"><span class="list__value">Lance Stroll</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Williams</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">4</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://via.placeholder.com/300" data-leader="Swedish" data-member1="1990-09-02" data-member2="se">
-              <td class="list__cell"><span class="list__value">16</span></td>
-              <td class="list__cell"><span class="list__value">Marcus Ericsson</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Sauber</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">2</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://via.placeholder.com/300" data-leader="French" data-member1="1996-09-17" data-member2="fr">
-              <td class="list__cell"><span class="list__value">17</span></td>
-              <td class="list__cell"><span class="list__value">Esteban Ocon</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Force India</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">1</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://via.placeholder.com/300" data-leader="New Zealander" data-member1="1989-11-10" data-member2="nz">
-              <td class="list__cell"><span class="list__value">18</span></td>
-              <td class="list__cell"><span class="list__value">Brendon Hartley</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Toro Rosso</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">1</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://www.formula1.com/content/fom-website/en/drivers/romain-grosjean/_jcr_content/image.img.1920.medium.jpg/1536135092872.jpg" data-leader="French" data-member1="1986-04-17" data-member2="fr">
-              <td class="list__cell"><span class="list__value">19</span></td>
-              <td class="list__cell"><span class="list__value">Romain Grosjean</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Haas F1 Team</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">0</span><small class="list__label">Points</small></td>
-            </tr>
-            <tr class="list__row" data-image="https://via.placeholder.com/300" data-leader="Russian" data-member1="1995-08-27" data-member2="ru">
-              <td class="list__cell"><span class="list__value">20</span></td>
-              <td class="list__cell"><span class="list__value">Sergey Sirotkin</span><small class="list__label">Team Name</small></td>
-              <td class="list__cell"><span class="list__value">Williams</span><small class="list__label">Team ID</small></td>
-              <td class="list__cell"><span class="list__value">0</span><small class="list__label">Points</small></td>
             </tr>
           </table>
         </div>
@@ -222,6 +123,163 @@
     </footer>
 
       <script src="./style.js"></script>
+      <script>
+
+let leaderboard = [{
+        "TeamID": "RHA001",
+        "TeamName": "Power Puff ",
+        "Points": "1"
+    },
+    {
+        "TeamID": "RHA002",
+        "TeamName": "Desi Boys",
+        "Points": "2"
+    },
+    {
+        "TeamID": "RHA003",
+        "TeamName": "Dhamaal",
+        "Points": "3"
+    },
+    {
+        "TeamID": "RHA004",
+        "TeamName": "Wanderlust Minds ",
+        "Points": "4"
+    },
+    {
+        "TeamID": "RHA005",
+        "TeamName": "Weapon_X",
+        "Points": "5"
+    },
+    {
+        "TeamID": "RHA006",
+        "TeamName": "Dunder Mifflin",
+        "Points": "6"
+    },
+    {
+        "TeamID": "RHA007",
+        "TeamName": "A.S.U",
+        "Points": "7"
+    },
+    {
+        "TeamID": "RHA008",
+        "TeamName": "Trios",
+        "Points": "8"
+    },
+    {
+        "TeamID": "RHA009",
+        "TeamName": "The Three Stooges",
+        "Points": "9"
+    },
+    {
+        "TeamID": "RHA010",
+        "TeamName": "Bakhhod",
+        "Points": "10"
+    },
+    {
+        "TeamID": "RHA011",
+        "TeamName": "Knucleheads",
+        "Points": "11"
+    },
+    {
+        "TeamID": "RHA012",
+        "TeamName": "Team Boatsters",
+        "Points": "12"
+    },
+    {
+        "TeamID": "RHA013",
+        "TeamName": "Team Spectacleur",
+        "Points": "13"
+    },
+    {
+        "TeamID": "RHA014",
+        "TeamName": "Ringmasters",
+        "Points": "14"
+    },
+    {
+        "TeamID": "RHA015",
+        "TeamName": "Mash",
+        "Points": "15"
+    }]
+      
+        startpoint=document.getElementById("appen");
+
+      for(a in leaderboard){
+        console.log(leaderboard[a]);
+
+        
+
+          newrow=document.createElement('tr');
+          newrow.className="list__row";
+          
+          
+          
+
+          tname=document.createElement('td');
+          tname.className="list_cell";
+          tspan=document.createElement('span');
+          tspan.className="list_value";
+          tspan.innerHTML=leaderboard[a].TeamName;
+          tname.appendChild(tspan);
+
+          
+
+          tid=document.createElement('td');
+          tid.className="list_cell";
+          tidspan=document.createElement('span');
+          tidspan.className="list_value";
+          tidspan.innerHTML=leaderboard[a].TeamID;
+          tid.appendChild(tidspan);
+
+         
+
+          points=document.createElement('td');
+          points.className="list_cell";
+          pspan=document.createElement('span');
+          pspan.className="list_value";
+          pspan.innerHTML=leaderboard[a].Points;
+          ptag=document.createElement('small');
+          ptag.className="list_label";
+          ptag.innerHTML="Points";
+          lbr=document.createElement('br');
+          pspan.appendChild(lbr);
+          points.appendChild(pspan);
+          points.appendChild(ptag);
+
+        
+          
+          rank=document.createElement('td');
+          rank.className="list_cell";
+          dspan=document.createElement('span');
+          dspan.className="list_value";
+          dspan.innerHTML=leaderboard[a].Position;
+          rank.appendChild(dspan);
+
+
+          
+          
+          newrow.appendChild(rank);
+          newrow.appendChild(tname);
+          newrow.appendChild(tid);
+          newrow.appendChild(points);
+
+
+
+          //     <td class="list__cell"><span class="list__value">2</span></td>
+          //     <td class="list__cell"><span class="list__value">Sebastian Vettel</span><small class="list__label">Team Name</small></td>
+          //     <td class="list__cell"><span class="list__value">Ferrari</span><small class="list__label">Team ID</small></td>
+          //     <td class="list__cell"><span class="list__value">78</span><small class="list__label">Points</small></td>
+            
+       
+
+          
+          
+          startpoint.appendChild(newrow);
+
+      }
+
+     
+      
+      </script>
     
 </body>
 </html>
