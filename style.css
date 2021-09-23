@@ -82,6 +82,7 @@ nav p {
 	text-transform: uppercase;
 }
 
+
 .burger {
 	border: 0;
 	cursor: pointer;
@@ -129,7 +130,7 @@ ul li {
 }
 
 ul li a {
-  font-size: 1.5rem;
+  font-size: 1rem;
 	color: #fff;
 	position: relative;
 	text-decoration: none;
@@ -265,6 +266,8 @@ ul li a:hover::after {
     display: block;
     font-size: 18px;
   }
+
+
   .list__label {
     font-size: 11px;
     opacity: 0.6;
@@ -584,21 +587,3 @@ ul li a:hover::after {
   background-color: rgba(142, 142, 142, 0.1)
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
