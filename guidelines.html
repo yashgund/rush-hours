@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="shortcut icon"
+    href="./images/RotaractRVCE.png"
+    type="image/x-icon"
+  />
     
     
     <title>Rush Hours | Guidelines</title>
@@ -14,44 +20,37 @@
 </head>
 <body>
 
+  <nav>
+    <div class="left">
+    <div class="mx-2">
+    <img id="image" src="./images/RotaractRVCE.png" alt="">
+</div>
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="mx-2">
+    <p >Rush Hours</p>
+</div>
+</div>
+    
+    <button id="burger" class="burger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </button>
+    
+    <ul>
+        <li><a href="index.html">Event</a></li>
+  <li><a href= "guidelines.html" style="color: #F50057;">Guides</a></li>
 
+        <li><a href= "leader.html">Leaderboard</a></li>
+        
+    </ul>
+</nav>
 
-        <header class="text-gray-400 bg-gray-900 body-font" style="background-color: #121212;">
-                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                  <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
-                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                    </svg>
-                    <span class="ml-3 text-xl">Rush Hours</span>
-                  </a>
-                  
-                  <a href="leader.html">
-                  <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" style="float: left;">Leaderboard
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                  </button>
-                  </a>
-        
-                  <a href="index.html">
-                  <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" style="float: left;">Home
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                          <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                      </button>
-                  </a>
-        
-                     <a href="guidelines.html"> <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" style="float: left;background-color: #F50057;color:white">Guidelines
-                           
-                          </button>
-                        </a>
-                </div>
-              </header> 
+  
         
 
 <section class="text-gray-500 bg-gray-900 body-font">
-    <div class="container px-5 py-24 mx-auto" style="padding-bottom:20px;padding-top:20px;padding-left:33%">
-    <span class="inline-block py-1 px-3 rounded bg-gray-800 text-gray-500 text-sm font-medium tracking-widest" style="font-size:20px">Guidelines</span>
+   
+    <div class=" container py-5 mx-auto " style="text-align: center;">
+      <p class="inline-block py-1 px-3 rounded bg-gray-800 text-gray-500 text-sm font-medium tracking-widest " style="text-align: center; font-size: 24px; background-color: #970137; color: white;" > Guidelines</p>
     </div>
 
     <div class="container px-5 py-24 mx-auto" style="padding-top:12px">
@@ -60,7 +59,20 @@
           <div class="h-full bg-gray-800 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
             
             <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">General </h1>
-            <p class="leading-relaxed mb-3" style="font-size:12px">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <p class="leading-relaxed mb-3" style="font-size:15px">❖ This event consists a total of 8 tasks. <br><br>
+              ❖ All the tasks will be released at 9:00 AM and all the teams have to submit their
+entries within the mentioned deadline. The entries submitted beyond the
+mentioned deadline will not be considered for evaluation. <br><br>
+❖ All the teams will be awarded points based on their performance in the tasks and
+the submission time of the tasks. <br><br>
+❖ The judging criteria for each task will be informed to the teams with the release
+of each. <br><br>
+❖ The decisions taken by Team RUSH HOURS will be final. <br><br>
+❖ There will be regular elimination of teams on the basis of their final scores. <br>
+            
+
+
+            </p>
             
           </div>
         </div>
@@ -69,21 +81,22 @@
             <div class="h-full bg-gray-800 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
               
               <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Task submission </h1>
-              <p class="leading-relaxed mb-3" style="font-size:15px">1.Create a google drive folder with team ID as the folder name<br>
+              <p class="leading-relaxed mb-3" style="font-size:15px">❖ Create a google drive folder with team ID as the folder name. <br>
                 Example: if team ID is RHA001 folder name=”RHA001”<br>
              <br>
-             2. Restrict access to “abhinandsbhavan.te18@rvce.edu.in” as “Editor”
-                Link should not be open to all.<br>
+             ❖ Right click on the folder, and click “Share+” ,set sharing settings to
+             “Anyone with link” and access as “Editor” <br>
              <br>
-             3. If the link is in accessible at any point of time, during the event, it will result in immediate disqualification of the Team
+             ❖ If the link is inaccessible at any point of time, during the event, it will result in
+immediate disqualification of the Team. 
              <br><br>
-             4. Any file saved in the folder must be named as your team ID. In case of multiple files upload for a task, use suffix “_1” or “_2” or “_3”
+             ❖ Create a new sub-folder for every task. Example: “Task 1”,” Task 2”,” Task 3”. DO
+NOT name the folder as the task name. The previous task folders must NOT be
+deleted throughout the event. 
              <br><br>
-             5. Color you Folder in the respective manner:<br>
-                   Group    			Color<br>
-                “Rush Hours A” 	           ”Yellow cab”<br>
-                “Rush Hours B”             “Rainy Sky”<br>
-                “Rush Hours C”             “Toy Eggplant”<br>
+             ❖ Any file saved in the folder must be named as your team ID. In case of multiple
+             file upload for a task, use suffix “_1” or “_2” or “_3” for each member of your
+             team. <br>
              </p>
               
             </div>
@@ -107,12 +120,60 @@
             </div>
           </div>
 
+          <div class=" container py-5 mx-auto " style="text-align: center;">
+            <p class="inline-block py-1 px-3 rounded bg-gray-800 text-gray-500 text-sm font-medium tracking-widest " style="text-align: center; font-size: 15px; background-color: #970137; color: white;" ><a href="./Rush_Hours_v2.pdf" download ><i class="fas fa-download"></i> Download Full Guidelines  </a> </p>
+          </div>
+
 
 
         
       </div>
     </div>
   </section>
+
+  <footer >
+    <script src="https://kit.fontawesome.com/4db6b32bd3.js" crossorigin="anonymous"></script>
+    
+    <div class="base backgroundf" >
+    <div id="logo" style="flex-basis: 33%">
+    
+      <div class="rvLogo">
+      <img class="m-1 p-1" src="./images/Rotaract RVCE1.png" alt="">
+    </div> 
+    <div id="logo2" >
+      <img class="m-1 p-1"  src="./images/Rotaract RVCE2.png" alt="">
+    </div>
+    </div>
+    <div class="district" style="flex-basis: 33%">
+        <div>
+            <p><b>Rotaract Club Of RVCE</b> | District 3190</p>
+        </div>
+        <div class="socials">
+            <a href=""><i class="mx-2 fab fa-facebook-f"></i></a>
+            <a href=""><i class="mx-2 fab fa-twitter"></i></a>
+            <a href=""><i class="mx-2 fab fa-instagram"></i></a>
+            <a href=""><i class="mx-2 fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="eventChair" style="flex-basis: 33%">
+        <table class="eventchair px-5">
+            <tr class="tr1">
+                <th style="text-align: center;">Event Chairs</th>
+                <th style="text-align: center;">Contact No.</th>
+            </tr>
+            <tr class="tr1" style="text-align: center;">
+                <td>Rtr. Vidhula </td>
+                <td><i class="mx-2 fas fa-phone-alt"></i>+919606381100</td>
+            </tr>
+            <tr class="tr1" style="text-align: center;">
+                <td>Rtr. Tanmay </td>
+                <td><i class="mx-2 fas fa-phone-alt"></i>+919931965263</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</footer>
+  <script src="./style.js"></script>
      
 
 
