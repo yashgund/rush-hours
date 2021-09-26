@@ -104,374 +104,374 @@ const sidebarClose = () => {
 
 let leaderboard = [
 {
-            "TeamName": "Knuckleheads",
-            "TeamID": "RHA011",
-            "Points": "71",
+            "Team ID": "RHB024",
+            "Team Name": "Thunder Trio",
+            "Points": "100.1",
             "Position": "2"
         },
         {
-            "TeamName": "Thunder Trio",
-            "TeamID": "RHB024",
-            "Points": "70.1",
+            "Team ID": "RHA011",
+            "Team Name": "Knuckleheads",
+            "Points": "98",
             "Position": "3"
         },
         {
-            "TeamName": "The Trinity",
-            "TeamID": "RHA017",
-            "Points": "70",
+            "Team ID": "RHB011",
+            "Team Name": "TEAM FRIES",
+            "Points": "98",
             "Position": "4"
         },
         {
-            "TeamName": "TEAM FRIES",
-            "TeamID": "RHB011",
-            "Points": "69",
+            "Team ID": "RHA019",
+            "Team Name": "3 ACES",
+            "Points": "90.8",
             "Position": "5"
         },
         {
-            "TeamName": "Mystery",
-            "TeamID": "RHB025",
-            "Points": "68",
+            "Team ID": "RHB020",
+            "Team Name": "The Eternals",
+            "Points": "90.2",
             "Position": "6"
         },
         {
-            "TeamName": "RAA",
-            "TeamID": "RHB017",
-            "Points": "66.6",
+            "Team ID": "RHA029",
+            "Team Name": "Third Degree Burns",
+            "Points": "88.9",
             "Position": "7"
         },
         {
-            "TeamName": "JEM",
-            "TeamID": "RHA030",
-            "Points": "66",
+            "Team ID": "RHB003",
+            "Team Name": "ThunderCookies",
+            "Points": "87.5",
             "Position": "8"
         },
         {
-            "TeamName": "Maelstorm",
-            "TeamID": "RHB014",
-            "Points": "66",
+            "Team ID": "RHA007",
+            "Team Name": "A.S.U",
+            "Points": "86.3",
             "Position": "9"
         },
         {
-            "TeamName": "The Eternals",
-            "TeamID": "RHB020",
-            "Points": "65",
+            "Team ID": "RHA026",
+            "Team Name": "SPARKLETS",
+            "Points": "85.4",
             "Position": "10"
         },
         {
-            "TeamName": "Third Degree Burns",
-            "TeamID": "RHA029",
-            "Points": "64.9",
+            "Team ID": "RHB005",
+            "Team Name": "Gryffindor",
+            "Points": "85",
             "Position": "11"
         },
         {
-            "TeamName": "Trios",
-            "TeamID": "RHA008",
-            "Points": "64",
+            "Team ID": "RHA025",
+            "Team Name": "Insidious ",
+            "Points": "81.6",
             "Position": "12"
         },
         {
-            "TeamName": "3 ACES",
-            "TeamID": "RHA019",
-            "Points": "63.8",
+            "Team ID": "RHA030",
+            "Team Name": "JEM",
+            "Points": "81.3",
             "Position": "13"
         },
         {
-            "TeamName": "Dua",
-            "TeamID": "RHB001",
-            "Points": "63",
+            "Team ID": "RHA017",
+            "Team Name": "The Trinity",
+            "Points": "80",
             "Position": "14"
         },
         {
-            "TeamName": "Westleaf",
-            "TeamID": "RHB004",
-            "Points": "63",
+            "Team ID": "RHB004",
+            "Team Name": "Westleaf",
+            "Points": "79",
             "Position": "15"
         },
         {
-            "TeamName": "The Incredibles",
-            "TeamID": "RHA031",
-            "Points": "60",
+            "Team ID": "RHA008",
+            "Team Name": "Trios",
+            "Points": "78.4",
             "Position": "16"
         },
         {
-            "TeamName": "REGULATORS",
-            "TeamID": "RHB030",
-            "Points": "60",
+            "Team ID": "RHB025",
+            "Team Name": "Mystery",
+            "Points": "77",
             "Position": "17"
         },
         {
-            "TeamName": "Bakhhod",
-            "TeamID": "RHA010",
-            "Points": "59.5",
+            "Team ID": "RHB017",
+            "Team Name": "RAA",
+            "Points": "75.6",
             "Position": "18"
         },
         {
-            "TeamName": "The Three Musketeers",
-            "TeamID": "RHA016",
-            "Points": "59",
+            "Team ID": "RHA004",
+            "Team Name": "Wanderlust minds",
+            "Points": "74.7",
             "Position": "19"
         },
         {
-            "TeamName": "ThunderCookies",
-            "TeamID": "RHB003",
-            "Points": "58.5",
+            "Team ID": "RHA032",
+            "Team Name": "FALCON",
+            "Points": "70",
             "Position": "20"
         },
         {
-            "TeamName": "Wanderlust minds",
-            "TeamID": "RHA004",
-            "Points": "57.6",
+            "Team ID": "RHA031",
+            "Team Name": "The Incredibles",
+            "Points": "69",
             "Position": "21"
         },
         {
-            "TeamName": "Insidious ",
-            "TeamID": "RHA025",
-            "Points": "57.6",
+            "Team ID": "RHB014",
+            "Team Name": "Maelstorm",
+            "Points": "66",
             "Position": "22"
         },
         {
-            "TeamName": "Dhamaal",
-            "TeamID": "RHA003",
-            "Points": "57",
+            "Team ID": "RHA006",
+            "Team Name": "Dunder Mifflin",
+            "Points": "64.3",
             "Position": "23"
         },
         {
-            "TeamName": "A.S.U",
-            "TeamID": "RHA007",
-            "Points": "57",
+            "Team ID": "RHB028",
+            "Team Name": "Mighty three",
+            "Points": "63.9",
             "Position": "24"
         },
         {
-            "TeamName": "Team boatsters",
-            "TeamID": "RHA012",
-            "Points": "55.4",
+            "Team ID": "RHB001",
+            "Team Name": "Dua",
+            "Points": "63",
             "Position": "25"
         },
         {
-            "TeamName": "SPARKLETS",
-            "TeamID": "RHA026",
-            "Points": "55.4",
+            "Team ID": "RHA015",
+            "Team Name": "MASH",
+            "Points": "61",
             "Position": "26"
         },
         {
-            "TeamName": "Gryffindor",
-            "TeamID": "RHB005",
-            "Points": "55",
+            "Team ID": "RHB030",
+            "Team Name": "REGULATORS",
+            "Points": "60",
             "Position": "27"
         },
         {
-            "TeamName": "Mighty three",
-            "TeamID": "RHB028",
-            "Points": "53.9",
+            "Team ID": "RHA010",
+            "Team Name": "Bakhhod",
+            "Points": "59.5",
             "Position": "28"
         },
         {
-            "TeamName": "AZTECS",
-            "TeamID": "RHB033",
-            "Points": "53.2",
+            "Team ID": "RHA016",
+            "Team Name": "The Three Musketeers",
+            "Points": "59",
             "Position": "29"
         },
         {
-            "TeamName": "MASH",
-            "TeamID": "RHA015",
-            "Points": "53",
+            "Team ID": "RHA003",
+            "Team Name": "Dhamaal",
+            "Points": "57",
             "Position": "30"
         },
         {
-            "TeamName": "FALCON",
-            "TeamID": "RHA032",
-            "Points": "52",
+            "Team ID": "RHB031",
+            "Team Name": "Silverstone",
+            "Points": "56",
             "Position": "31"
         },
         {
-            "TeamName": "PHOENIX 5",
-            "TeamID": "RHB032",
-            "Points": "52",
+            "Team ID": "RHB032",
+            "Team Name": "PHOENIX 5",
+            "Points": "56",
             "Position": "32"
         },
         {
-            "TeamName": "Kal aana ",
-            "TeamID": "RHB012",
-            "Points": "51.1",
+            "Team ID": "RHA012",
+            "Team Name": "Team boatsters",
+            "Points": "55.4",
             "Position": "33"
         },
         {
-            "TeamName": "The three stooges",
-            "TeamID": "RHA009",
-            "Points": "48.3",
+            "Team ID": "RHB033",
+            "Team Name": "AZTECS",
+            "Points": "53.2",
             "Position": "34"
         },
         {
-            "TeamName": "Team Chaos",
-            "TeamID": "RHA028",
-            "Points": "48.3",
+            "Team ID": "RHA020",
+            "Team Name": "Vdg Flyers",
+            "Points": "49",
             "Position": "35"
         },
         {
-            "TeamName": "Phoenix 1",
-            "TeamID": "RHA018",
-            "Points": "46",
+            "Team ID": "RHA009",
+            "Team Name": "The three stooges",
+            "Points": "48.3",
             "Position": "36"
         },
         {
-            "TeamName": "Silverstone",
-            "TeamID": "RHB031",
-            "Points": "46",
+            "Team ID": "RHA028",
+            "Team Name": "Team Chaos",
+            "Points": "48.3",
             "Position": "37"
         },
         {
-            "TeamName": "Dunder Mifflin",
-            "TeamID": "RHA006",
-            "Points": "40",
+            "Team ID": "RHA018",
+            "Team Name": "Phoenix 1",
+            "Points": "46",
             "Position": "38"
         },
         {
-            "TeamName": "Vdg Flyers",
-            "TeamID": "RHA020",
-            "Points": "39",
+            "Team ID": "RHB006",
+            "Team Name": "Phoenix 2",
+            "Points": "45.4",
             "Position": "39"
         },
         {
-            "TeamName": "Ringmasters",
-            "TeamID": "RHA014",
-            "Points": "37",
+            "Team ID": "RHB026",
+            "Team Name": "RESONANCE",
+            "Points": "43",
             "Position": "40"
         },
         {
-            "TeamName": "Phoenix 2",
-            "TeamID": "RHB006",
-            "Points": "36.4",
+            "Team ID": "RHA014",
+            "Team Name": "Ringmasters",
+            "Points": "37",
             "Position": "41"
         },
         {
-            "TeamName": "Phoenix 3",
-            "TeamID": "RHB007",
-            "Points": "33",
+            "Team ID": "RHB029",
+            "Team Name": "Phoenix 4",
+            "Points": "36.1",
             "Position": "42"
         },
         {
-            "TeamName": "RESONANCE",
-            "TeamID": "RHB026",
-            "Points": "33",
+            "Team ID": "RHA027",
+            "Team Name": "Deep-T",
+            "Points": "35.5",
             "Position": "43"
         },
         {
-            "TeamName": "THREE BUDS",
-            "TeamID": "RHB008",
-            "Points": "30",
+            "Team ID": "RHB007",
+            "Team Name": "Phoenix 3",
+            "Points": "33",
             "Position": "44"
         },
         {
-            "TeamName": "TEAM HP",
-            "TeamID": "RHA033",
-            "Points": "28.2",
+            "Team ID": "RHB008",
+            "Team Name": "THREE BUDS",
+            "Points": "30",
             "Position": "45"
         },
         {
-            "TeamName": "Phoenix 4",
-            "TeamID": "RHB029",
-            "Points": "28.1",
+            "Team ID": "RHA033",
+            "Team Name": "TEAM HP",
+            "Points": "28.2",
             "Position": "46"
         },
         {
-            "TeamName": "Goal Diggers",
-            "TeamID": "RHB027",
+            "Team ID": "RHB027",
+            "Team Name": "Goal Diggers",
             "Points": "28",
             "Position": "47"
         },
         {
-            "TeamName": "Power Puff",
-            "TeamID": "RHA001",
+            "Team ID": "RHA001",
+            "Team Name": "Power Puff",
             "Points": "27.2",
             "Position": "48"
         },
         {
-            "TeamName": "Team RCB",
-            "TeamID": "RHB019",
+            "Team ID": "RHB019",
+            "Team Name": "Team RCB",
             "Points": "27.2",
             "Position": "49"
         },
         {
-            "TeamName": "Deep-T",
-            "TeamID": "RHA027",
-            "Points": "26.5",
+            "Team ID": "RHB015",
+            "Team Name": "Ignitors",
+            "Points": "26",
             "Position": "50"
         },
         {
-            "TeamName": "Ignitors",
-            "TeamID": "RHB015",
+            "Team ID": "RHB016",
+            "Team Name": "TRB",
             "Points": "26",
             "Position": "51"
         },
         {
-            "TeamName": "TRB",
-            "TeamID": "RHB016",
-            "Points": "26",
+            "Team ID": "RHA013",
+            "Team Name": "Team Spectacleur",
+            "Points": "22.5",
             "Position": "52"
         },
         {
-            "TeamName": "Team Spectacleur",
-            "TeamID": "RHA013",
-            "Points": "22.5",
+            "Team ID": "RHB023",
+            "Team Name": "Enigma",
+            "Points": "18",
             "Position": "53"
         },
         {
-            "TeamName": "Enigma",
-            "TeamID": "RHB023",
-            "Points": "18",
+            "Team ID": "RHB002",
+            "Team Name": "hunters003",
+            "Points": "17",
             "Position": "54"
         },
         {
-            "TeamName": "hunters003",
-            "TeamID": "RHB002",
-            "Points": "17",
+            "Team ID": "RHB009",
+            "Team Name": "AMIGOS",
+            "Points": "16",
             "Position": "55"
         },
         {
-            "TeamName": "AMIGOS",
-            "TeamID": "RHB009",
-            "Points": "16",
+            "Team ID": "RHA002",
+            "Team Name": "Desi Boys",
+            "Points": "15",
             "Position": "56"
         },
         {
-            "TeamName": "Desi Boys",
-            "TeamID": "RHA002",
+            "Team ID": "RHA005",
+            "Team Name": "Weapon_X",
             "Points": "15",
             "Position": "57"
         },
         {
-            "TeamName": "Weapon_X",
-            "TeamID": "RHA005",
-            "Points": "15",
+            "Team ID": "RHA022",
+            "Team Name": "SUPER_11",
+            "Points": "13",
             "Position": "58"
         },
         {
-            "TeamName": "SUPER_11",
-            "TeamID": "RHA022",
+            "Team ID": "RHA023",
+            "Team Name": "Challengers",
             "Points": "13",
             "Position": "59"
         },
         {
-            "TeamName": "Challengers",
-            "TeamID": "RHA023",
+            "Team ID": "RHB010",
+            "Team Name": "Illiterates",
             "Points": "13",
             "Position": "60"
         },
         {
-            "TeamName": "Illiterates",
-            "TeamID": "RHB010",
+            "Team ID": "RHB012",
+            "Team Name": "Kal aana ",
             "Points": "13",
             "Position": "61"
         },
         {
-            "TeamName": "En-Vision The Future",
-            "TeamID": "RHA021",
+            "Team ID": "RHA021",
+            "Team Name": "En-Vision The Future",
             "Points": "11",
             "Position": "62"
         },
         {
-            "TeamName": "Spirit",
-            "TeamID": "RHB021",
+            "Team ID": "RHB021",
+            "Team Name": "Spirit",
             "Points": "0",
             "Position": "63"
         }
