@@ -27,116 +27,44 @@ let leaderboard = [
 {
             "TeamID": "RHB020",
             "TeamName": "The Eternals",
-            "Points": "213.3",
+            "Points": "242.3",
             "Position": "2"
-        },
-        {
-            "TeamID": "RHB003",
-            "TeamName": "Thunder Cookie",
-            "Points": "209.5",
-            "Position": "3"
         },
         {
             "TeamID": "RHB005",
             "TeamName": "Gryffindor",
-            "Points": "198",
-            "Position": "4"
+            "Points": "226",
+            "Position": "3"
         },
         {
             "TeamID": "RHB024",
             "TeamName": "Thunder Trio",
-            "Points": "193.9",
-            "Position": "5"
+            "Points": "223.9",
+            "Position": "4"
         },
         {
             "TeamID": "RHA025",
             "TeamName": "Insidious ",
-            "Points": "189.6",
-            "Position": "6"
-        },
-        {
-            "TeamID": "RHA007",
-            "TeamName": "A.S.U",
-            "Points": "184.3",
-            "Position": "7"
+            "Points": "216.6",
+            "Position": "5"
         },
         {
             "TeamID": "RHA026",
             "TeamName": "SPARKLETS",
-            "Points": "184.2",
-            "Position": "8"
+            "Points": "214.2",
+            "Position": "6"
+        },
+        {
+            "TeamID": "RHB003",
+            "TeamName": "ThunderCookies",
+            "Points": "213.7",
+            "Position": "7"
         },
         {
             "TeamID": "RHA019",
             "TeamName": "3 ACES",
-            "Points": "182.8",
-            "Position": "9"
-        },
-        {
-            "TeamID": "RHA032",
-            "TeamName": "FALCON",
-            "Points": "172.3",
-            "Position": "10"
-        },
-        {
-            "TeamID": "RHA029",
-            "TeamName": "Third Degree Burns",
-            "Points": "169.9",
-            "Position": "11"
-        },
-        {
-            "TeamID": "RHB004",
-            "TeamName": "Westleaf",
-            "Points": "163.6",
-            "Position": "12"
-        },
-        {
-            "TeamID": "RHB011",
-            "TeamName": "TEAM FRIES",
-            "Points": "156.4",
-            "Position": "13"
-        },
-        {
-            "TeamID": "RHA017",
-            "TeamName": "The Trinity",
-            "Points": "144.8",
-            "Position": "14"
-        },
-        {
-            "TeamID": "RHA030",
-            "TeamName": "JEM",
-            "Points": "137.3",
-            "Position": "15"
-        },
-        {
-            "TeamID": "RHB025",
-            "TeamName": "Mystery",
-            "Points": "130.4",
-            "Position": "16"
-        },
-        {
-            "TeamID": "RHA031",
-            "TeamName": "The Incredibles",
-            "Points": "128.6",
-            "Position": "17"
-        },
-        {
-            "TeamID": "RHB014",
-            "TeamName": "Maelstorm",
-            "Points": "128.2",
-            "Position": "18"
-        },
-        {
-            "TeamID": "RHA011",
-            "TeamName": "Knuckleheads",
-            "Points": "119.2",
-            "Position": "19"
-        },
-        {
-            "TeamID": "RHA004",
-            "TeamName": "Wanderlust minds",
-            "Points": "117.7",
-            "Position": "20"
+            "Points": "212.8",
+            "Position": "8"
         }
 ]
 
